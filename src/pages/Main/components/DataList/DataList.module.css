@@ -1,0 +1,31 @@
+.datalist {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 350px;
+
+}
+
+.datalistinner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+    width: 100%;
+    padding-left: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.datalistitems {
+    padding-right: 10px;
+}
+.datalistitems h3{
+    color: #565252;
+    font-size: medium;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
